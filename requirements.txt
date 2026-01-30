@@ -1,0 +1,4 @@
+psutil>=5.9.0
+flask>=2.3.0
+nvidia-ml-py3>=12.0.0
+intel-gpu-tools>=0.1.0
