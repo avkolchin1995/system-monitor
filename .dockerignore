@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Рабочие файлы и IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Тесты, логи и сборки
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+logs/
+
+# Git
+.git/
+.gitignore
+.gitmodules
+
+# Docker (чтобы случайно не скопировать сам себя)
+Dockerfile
+.dockerignore
+
+# Готовые HTML-файлы (чтобы не мешали при сборке)
+*.html
+
+# Временные и системные файлы
+*.tmp
+*.temp
+Thumbs.db
